@@ -9,7 +9,7 @@ var debug = require('debug')('1.-contact-book-api:server');
 var http = require('http');
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/ContactBook_API')
+mongoose.connect('mongodb+srv://API:032013247207@cluster0.rarib.mongodb.net/API_Management')
   .then(() => console.log('Connected!'));
 
 /**

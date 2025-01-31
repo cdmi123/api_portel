@@ -12,6 +12,8 @@ router.post('/Register',auth.register_user);
 
 // manage dashboard
 router.get('/dashboard',user.dashboard);
+router.get('/view_api/:id',user.view_api);
+
 
 
 

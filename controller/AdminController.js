@@ -41,3 +41,12 @@ exports.view_category = async (req,res) => {
         var data = await CategoryModel.find();
         res.render('admin/view_category',{data})
 }
+
+exports.add_api = async (req,res) => {
+        res.render('admin/add_api')
+    
+}
+
+exports.add_api_data = async (req,res) => {
+    res.redirect('/admin/add_api')
+}

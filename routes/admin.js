@@ -15,6 +15,11 @@ router.post('/add_category',admin.add_category_data);
 
 router.get('/view_category',admin.view_category);
 
+router.get('/add_api',admin.add_api);
+router.post('/add_api',admin.add_api_data);
+
+
+
 
 
 module.exports = router;
